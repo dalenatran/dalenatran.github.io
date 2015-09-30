@@ -51,12 +51,16 @@ table {
 
 <style>
 
+
+
 	h2 { color:black;
 	font-family: helvetica;
-	font-size: 15px;
+	font-size: 20px;
 	}
 	
-  li {
+	
+	
+ nav li {
     list-style:none;
     float:left;
     margin:10px;
@@ -65,6 +69,14 @@ table {
     color:white;
     text-transform:uppercase;
     font-family:Helvetica;
+  }
+  
+  article{
+	  font-family:helvetica;
+	  font-size:18px;
+  	  float:left;
+  	  clear:both
+	
   }
   p {font-family: garamond;
 	  color: darkgrey;}
