@@ -1,6 +1,5 @@
 
 
-/* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -51,5 +50,19 @@ table {
 }
 
 /* -----------------END RESET---------------- */
+
+<style>
+h1 { font-family: helvetica;
+	font-style:bold;}
+
+h2 { font-family: helvetica;
+	color:darkgrey;
+	font-size:9px;}
+	
+	p { float:left;
+		font-family:garamond;
+		font-size:8px;
+		color:black;
+	}
 
 
