@@ -54,8 +54,8 @@ table {
 
 
 	h2 { color:black;
-	font-family: helvetica;
-	font-size: 20px;
+	font-family: garamond;
+	font-size: 30px;
 	}
 	
 	
@@ -75,10 +75,20 @@ table {
 	  font-family:helvetica;
 	  font-size:18px;
   	  float:left;
-  	  clear:both
+  	  clear:both;
 	
   }
   p {font-family: garamond;
 	  color: darkgrey;}
+	  
+	  img {
+		  float:left;
+		  margin:15px;
+		  padding:20px;
+	  }
+	  
+	  img {
+		  float:left;
+	  }
 
 </style>

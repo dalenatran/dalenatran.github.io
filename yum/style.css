@@ -53,25 +53,47 @@ table {
 
 /* END RESET */
 
-<style>
-h1 { color:maroon;
+
+h1 { color:black;
 	font-family: garamond;
-	font-size: 13px;
+	font-size: 24px;
 	line-height:1.4em;
+	padding:5px 5px 5px 70px;
+	
+}
+h2 { color:black;
+	font-family: garamond;
+	font-size: 15px;
+	padding:5px 5px 5px 70px;
 }
 
-h2 { color:darkgrey;
+
+h3 { color:maroon;
 	font-family: garamond;
 	font-style: italic;
-	font-size: 10px;
+	font-size: 12px;
+	padding:5px 5px 25px 70px;
 }
 
-h4 { color:black;
+h4 { color:red;
 	font-family: garamond;
-	font-size: 9;
+	font-size: 10;
+}
+
+ul {
+	list-style-type:none;
+	background-color:maroon;
+	color:white;
+	font-family:avenir;
+	padding:25px 25px 25px 105px;
+	line-height:20px;
+}
+ol {
+	font-family:avenir;
+	padding:25px 25px 25px 70px;
+	line-height:20px;
 }
 	
-	</style>
 	
 
 
