@@ -51,11 +51,19 @@ table {
 
 <style>
 
+#content1 img {
+	margin-left: auto;
+	margin-right: auto; 
+	padding:20px 0px;
+}
 
-
-	h2 { color:black;
+	h2 { 
+	color:black;
 	font-family: garamond;
 	font-size: 30px;
+	font-weight:bold;
+	padding:15px;
+	margin:15px;
 	}
 	
 	
@@ -63,32 +71,56 @@ table {
  nav li {
     list-style:none;
     float:left;
-    margin:10px;
-    background-color:pink;
+    margin:0 auto;
+    background-color:white;
     padding:7px 14px;
-    color:white;
+    color:black;
     text-transform:uppercase;
-    font-family:Helvetica;
+    font-family:garamond;
+	font-size:30px;
+	font-weight:bold;
+  }
+  
+  nav {
+	  border-top:5px solid black; 
+	  height:50px;
+	  margin:30px;
+	  border-bottom:5px solid black;
+	  height:50px;
+	  margin:0 auto;
   }
   
   article{
+	  padding-left:10px;
 	  font-family:helvetica;
 	  font-size:18px;
   	  float:left;
-  	  clear:both;
-	
+	  margin:150px;
+	  margin-left:10px;
+	  margin-top:30px;
+	  background-color:white;
+	  width:300px;
+	  height:20px;
   }
+  
   p {font-family: garamond;
-	  color: darkgrey;}
+	  float:left;
+	  padding-left:20px;
+	  margin-left:10px;
 	  
-	  img {
+  }
+	  
+	  #content2 img {
 		  float:left;
-		  margin:15px;
+		  margin:0 auto;
 		  padding:20px;
 	  }
+	 
 	  
-	  img {
+	  #content3 img {
 		  float:left;
+		  margin:0 auto;
+		  padding:20px;
 	  }
 
 </style>
