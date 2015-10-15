@@ -53,7 +53,8 @@ table {
 
 #content1 img {
 	margin-left: auto;
-	margin-right: auto; 
+	margin-right: auto;
+	margin:0 auto;
 	padding:20px 0px;
 }
 
@@ -79,6 +80,7 @@ table {
     font-family:garamond;
 	font-size:30px;
 	font-weight:bold;
+	padding-left:50px;
   }
   
   nav {
@@ -88,7 +90,9 @@ table {
 	  border-bottom:5px solid black;
 	  height:50px;
 	  margin:0 auto;
+	  clear:both;
   }
+  
   
   article{
 	  padding-left:10px;
@@ -98,6 +102,7 @@ table {
 	  margin:150px;
 	  margin-left:10px;
 	  margin-top:30px;
+	  padding-left:200px;
 	  background-color:white;
 	  width:300px;
 	  height:20px;
