@@ -49,13 +49,13 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
-<style>
+
 
 #content1 img {
 	margin-left: auto;
 	margin-right: auto;
-	margin:0 auto;
-	padding:20px 0px;
+	padding-left:270px;
+
 }
 
 	h2 { 
@@ -74,13 +74,13 @@ table {
     float:left;
     margin:0 auto;
     background-color:white;
-    padding:7px 14px;
+    padding:8px 1px;
     color:black;
     text-transform:uppercase;
     font-family:garamond;
 	font-size:30px;
 	font-weight:bold;
-	padding-left:50px;
+	padding-left:140px;
   }
   
   nav {
@@ -117,15 +117,14 @@ table {
 	  
 	  #content2 img {
 		  float:left;
-		  margin:0 auto;
+		  
 		  padding:20px;
 	  }
 	 
 	  
 	  #content3 img {
 		  float:left;
-		  margin:0 auto;
+		
 		  padding:20px;
 	  }
 
-</style>
