@@ -30,7 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width:80%;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -54,8 +56,8 @@ table {
 #content1 img {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left:270px;
-
+	padding:20px;
+	width:100%;
 }
 
 	h2 { 
@@ -72,15 +74,14 @@ table {
  nav li {
     list-style:none;
     float:left;
-    margin:0 auto;
+    margin:10px;
     background-color:white;
-    padding:8px 1px;
-    color:black;
     text-transform:uppercase;
     font-family:garamond;
-	font-size:30px;
+	font-size:25px;
 	font-weight:bold;
-	padding-left:140px;
+	padding: 0 2%;
+	display: inline-block;
   }
   
   nav {
@@ -88,25 +89,30 @@ table {
 	  height:50px;
 	  margin:30px;
 	  border-bottom:5px solid black;
-	  height:50px;
-	  margin:0 auto;
 	  clear:both;
+	  width:100%;
+	  display:inline block;
+	  text-align: center;
   }
   
   
-  article{
-	  padding-left:10px;
+ #content2{
 	  font-family:helvetica;
 	  font-size:18px;
-  	  float:left;
-	  margin:150px;
-	  margin-left:10px;
-	  margin-top:30px;
-	  padding-left:200px;
-	  background-color:white;
-	  width:300px;
-	  height:20px;
+	  float:left;
+	  margin:2.5%;
+	  width:40%;
   }
+  
+  #content3{
+ 	  font-family:helvetica;
+ 	  font-size:18px;
+	  float:right;
+ 	  margin:2.5%;
+ 	  width:40%;
+   }
+  
+  
   
   p {font-family: garamond;
 	  float:left;
@@ -116,6 +122,7 @@ table {
   }
 	  
 	  #content2 img {
+		  width:100%;
 		  float:left;
 		  
 		  padding:20px;
@@ -123,8 +130,10 @@ table {
 	 
 	  
 	  #content3 img {
+		  width:100%;
 		  float:left;
-		
 		  padding:20px;
 	  }
+	  
+
 
